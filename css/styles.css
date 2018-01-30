@@ -1,0 +1,155 @@
+/*Global Section********************
+***********************************/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  background: pink;
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+}
+header{
+  padding-top: 50px;
+  position: relative;
+}
+
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+h1, h2 {
+  font-weight: 500;
+  font-family: 'VT323', monospace;
+}
+h2{
+  margin-top: 0;
+}
+h3{
+  margin: 0;
+}
+
+.uppercase{
+  text-transform: uppercase;
+  text-transform: full-width;
+}
+
+.btn{
+  text-decoration: none;
+  background: pink;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+
+/*Navigation
+***********************************/
+nav{
+  text-align: center;
+  background: pink;
+  position: fixed;
+  top: 0;
+  width: 100%
+
+}
+nav a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: full-width;
+  font-weight: 700;
+}
+
+
+/* Header and Footer ***************
+***********************************/
+header, footer{
+  background: lightblue;
+}
+/*Header*/
+header{
+  /*text-align: center;*/
+}
+.profile-img{
+
+  border-radius: 50%;
+
+}
+header h1, header h2{
+  margin: 0;
+}
+/* Footer */
+footer{
+  text-align: center;
+}
+.contact-info a{
+  padding: 10px;
+  display: inline-block;
+}
+
+/*WORK EXPERIENCE**********************
+**************************************/
+.work{
+  background: #8795E8
+}
+h3 ~ p{
+  margin: 0;
+}
+.job-description{
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type{
+  margin-top: 0;
+}
+
+
+
+/*EDUCATION****************************
+**************************************/
+p + h3{
+  margin-top: 30px;
+}
+
+
+/*Media Queries
+**************************************/
+@media (min-width: 900px){
+  .col-narrow{
+    width: 30%;
+    float: left;
+  }
+  .col-wide{
+    width:70%;
+    float: left;
+    padding-l: 20px;
+  }
+}
+@media(max-width: 899px){
+  header{
+    text-align: center;
+  }
+  .profile-img{
+    width: 80%;
+  }
+}
