@@ -11,12 +11,16 @@ body{
   color:#555;
   margin: 0;
   padding: 0;
+
+  background-color: #545351;
+  /* 72545c */
 }
 
 #page {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
+  /* background-color: #73575e; */
 }
 
 
@@ -66,9 +70,9 @@ header a.logo {
   z-index: 1;
   position: absolute;
   display: block; width: 160px; height: 66px;
-  background: url(../images/ESC/tenByTwo.svg) no-repeat 0 0;
+  background: url(../images/ESC/10by2_Logo.svg) no-repeat 0 0;
   background-size: contain;
-  top: 15px; left: 20px;
+  /* top: 0px; left: 200px; */
 }
 
 header a.logo span { display: none;}
@@ -168,6 +172,10 @@ section.how-to blockquote p.credit::before {content: '\2014'; position: absolute
   transition: all 0.5s ease-in-out;
 }
 
+/* .nav .navbar-nav {
+  background: rgba(0, 0, 0, 0.03);
+} */
+
 .page-top-nav {
   background: rgba(0,0,0,0.65);
   padding: 7px, 0;
@@ -177,7 +185,10 @@ section.how-to blockquote p.credit::before {content: '\2014'; position: absolute
   padding: 0 85px;
 }
 
-.navbar-nav { float: right; }
+.navbar-nav {
+  /* margin-left: 300px;  */
+  float: right;
+}
 
 .navbar-nav > li > a {
   color: #fff;
@@ -378,7 +389,7 @@ footer a:hover {color: #000; }
   }
 
   /* Navigation */
-  nav {position: static; width:auto; padding: 20px 15px; background-color: #4b0a0c;}
+  nav {position: static; width:auto; padding: 20px 15px; }
 
   nav ul,
   nav ul ul,
