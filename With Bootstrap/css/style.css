@@ -1,0 +1,244 @@
+/*
+ Colors:
+   background: pink
+   links: #8795E8
+   music: #ff71ce
+   game: #01cdfe
+   digital art: 	#05ffa1
+   sounds: #b967ff
+   physical art: #ff901f
+*/
+
+
+body{
+  background-color: pink;
+}
+
+a {
+  color: #8795E8;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  font-size: 1.2em; text-decoration: none; color: #fff;
+  border: 1px solid #fff; padding: 4px 15px;
+  transition: background-color 0.5s;
+}
+
+.btn:hover {background-color: rgba(255,113,206,0.3);}
+
+.btn-center {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* *******************
+    ************
+      ABOUT
+    ************
+******************** */
+#about {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  transition: background-color 0.5s;
+  padding-bottom: 2em;
+}
+#about h1 {
+  text-align: center;
+  padding-top: 1em;
+}
+#about h3 {
+  text-decoration: underline;
+}
+#about:hover{
+  background-color: rgba(255, 255, 255,0.25);
+}
+
+#about p {
+  padding: 2em
+}
+
+/* *******************
+    ************
+      SERVICES
+    ************
+******************** */
+
+#services {
+  text-align: center;
+  transition: background-color 0.5s;
+  padding: 0 2em 1em 2em;
+  margin-bottom: 2em;
+}
+#services:hover{
+  background-color: rgba(255, 255, 255,0.25);
+}
+#services div section {
+  transition: background-color 0.99s;
+  padding: 1em 0;
+}
+#services h1 {
+  padding-top: 1em;
+}
+#services div section:hover {
+  background-color: rgba(255,144,31,.5);
+}
+#services div section img {
+  display: block;
+  height: 50%;
+  width: 50%;
+  transform: translate(50%, 0);
+  margin: 1em 0;
+}
+
+
+
+
+
+/* ************
+      WORK
+************* */
+#work {
+  transition: background-color 0.5s;
+  padding: 2em 2em;
+  margin-bottom: 4em;
+  text-align: center;
+}
+#work:hover{
+  /* background-color: rgba(239, 179, 190,0.5); */
+  background-color: rgba(255, 255, 255,0.25);
+}
+
+#work div form div {
+  margin: 1em 0;
+}
+
+/* #work-list div img { */
+#work-list .work-item {
+  position: relative;
+  /* opacity: 0.8; */
+  animation: scale-out 500ms ease-in-out forwards;
+  padding-bottom: 1.85em;
+}
+
+
+#work-list .work-item .work-name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+
+/* #work-list div img:hover{ */
+#work-list .work-item :hover{
+  transform-origin: center;
+  animation: scale-in 500ms ease-in-out forwards;
+}
+
+#work-list .work-item:focus,
+#work-list .work-item:hover {
+  /* display: block; */
+}
+
+#work-list .work-item .work-name:hover .work-name{
+  display: block;
+  -webkit-amination: a 1s;
+  animation: a 1s;
+}
+
+@-webkit-keyframes a {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@keyframes a {
+    0% {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        visibility: hidden;
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+@keyframes scale-in{
+  from {
+    transform: scale(1.0);
+  }
+  to {
+    transform: scale(1.14);
+  }
+}
+@keyframes scale-out{
+  from {
+    transform: scale(1.14);
+  }
+  to {
+    transform: scale(1.0);
+  }
+}
+
+
+
+
+/* *******************
+    ************
+      DEV LOGS
+    ************
+******************** */
+#devlog {
+  transition: background-color 0.5s;
+  margin-bottom: 4em;
+  padding: 2em;
+}
+#devlog:hover{
+  background-color: rgba(255, 255, 255,0.25);
+}
+#devlog h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.video-responsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* *******************
+    ************
+      CONTACT
+    ************
+******************** */
+#contact {
+  transition: background-color 0.5s;
+  margin-bottom: 4em;
+  padding: 2em;
+}
+#contact:hover{
+  background-color: rgba(255, 255, 255,0.25);
+}

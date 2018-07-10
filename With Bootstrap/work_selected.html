@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Work Selected</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <header id="home" class="work_header">
+      <!-- Add the nav bar later -->
+    </header>
+
+
+    <section class="section">
+      <div class="container">
+        <div>
+          <!-- <p>Work Type: <span id="workType"></span><p> -->
+          <!-- <p>Work Link: <span id="workLink"></span><p> -->
+          <p>Work Description: <span id="workDesc"></span><p>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!--
+  - - - - - - - - - - - - - - - - - - - - - - - - - -
+     - - - - - - - - - - - - - - - - - - - -
+                    JAVASCRIPT
+     - - - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - -
+   -->
+  <!-- <script src="js/jquery.slim.min.js"></script>  This isn't enough for the scroll spy code-->
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(function() {
+      //extract the query string parameters
+      var paramLoc = window.location.href.indexOf("?");
+      var paramStr = window.location.href.slice(paramLoc+1);
+      var workName = "";
+      var workID = "";
+      var i = paramStr.indexOf("workName=")+9;
+      for (var j = i; j < paramStr.length; j++) {
+        if (paramStr.charAt(j) == "&"){
+          break;
+        }
+        workName += paramStr.charAt(j);
+      }
+
+      var i = paramStr.indexOf("workID=")+7;
+      for (var j = i; j < paramStr.length; j++) {
+        if (paramStr.charAt(j) == "&"){
+          break;
+        }
+        workID += paramStr.charAt(j);
+      }
+
+      workName = decodeURIComponent(workName);
+      console.log("workName: " + workName);
+      workID = decodeURIComponent(workID);
+      console.log("workID: " + workID);
+
+      // set the selected work name in the proper placeholder
+      $("#WorkName").text(workName);
+
+      // retrieve the work information via AJAX
+      $.getJSON("selected-works.json")
+        .done(function(workData){
+          // use the workID to get this selected work information from json
+          workData.work.forEach(function(elem) {
+            if (elem.work_id == workID) {
+              $("#workDesc").text(elem.work_description);
+              console.log(elem.work_description);
+            }
+          });
+        });
+    })
+  </script>
+</html>

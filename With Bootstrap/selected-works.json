@@ -1,0 +1,461 @@
+{
+  "name":"Seth Gordon Entertainment Selected Works",
+  "version":"1.0",
+  "work":[
+    {
+      "work_name":"Lonely Seashore",
+      "work_id":"M-LS001",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/track/feat-digital-sex",
+          "compilation":"https://leisureland2000.bandcamp.com/album/r-vaporwave-presents-the-70k-compilation",
+          "soundcloud":"https://soundcloud.com/professor-daytime/feat-digital-sex",
+          "spotify":"https://open.spotify.com/album/3wfdsiCdE7Z9sRXLS62UNY?si=yEEut3OYSUWoMWJxhUpquw",
+          "youtube":"",
+          "art":""
+        }
+      ],
+      "work_description":"Seth Gordon as Professor Daytime and Sebastian Haid
+        as Digital Sex met in Music Production Club at the University of
+        Wisconsin Stout.  Here is their first collaboration: 寂しい浜 (Lonely
+        Seashore -en).  The song is an interpretation of Vaporwave without the
+        use of sampled songs.  All samples are to add character and a sense of
+        space rather than the musical content.<br>You can find more Digital
+        Sex <a href='https://digitalsex.bandcamp.com'>here</a> on Bandcamp.",
+      "photo_src":"",
+      "embed":"<iframe width="      560      " height="      315      " src='https://www.youtube.com/embed/7PaxO3arbAw' frameborder="      0      " allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+    },
+    {
+      "work_name":"/r/Vaporwave Cover Art",
+      "work_id":"A-VC002",
+      "work_links":[
+        {
+          "bandcamp":"https://leisureland2000.bandcamp.com/album/r-vaporwave-presents-the-70k-compilation",
+          "art":"",
+
+        }
+      ],
+      "work_description":"The vaporwave artist / label owner Leisure Land 2000
+      wanted to put together a compilation album to celebrate the subreddit
+      /r/Vaporwave getting to 70,000 subscribers.  They opened submissions up to
+      the whole subreddit.  I submitted Digital Sex and my collaboration titled
+      Lonely Seashore which is the first song in the compilation, and this cover
+      art.",
+      "photo_src":"",
+      "embed":""
+    },
+    {
+      "work_name":"Civil Twilight",
+      "work_id":"M-CT003",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/track/civil-twilight",
+          "soundcloud":"https://soundcloud.com/professor-daytime/civil-twilight",
+          "spotify":"https://open.spotify.com/album/0hTI9A878FOc7t6KFgWZKS?si=LaYcIZGXRbi9-IsWU0SlVA",
+          "art":""
+        }
+      ],
+      "work_description":"In late 2017, Professor Daytime decided to dabble
+        with Chillwave once again.  The song started with my signature use of
+        Korg Mono/Poly's Soft Synth Horn and a juicy bass.  I soon added vocal
+        chops and some bit crushed bells and the song soon turned into something
+        new with a cinematic ending.",
+      "photo_src":"",
+      "embed":"<iframe style='border: 0; width: 350px; height: 442px;'' src='https://bandcamp.com/embedPlayer/track=2393672991/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/' seamless><a href='http://professordaytime.bandcamp.com/track/civil-twilight'>Civil Twilight by Professor Daytime</a></iframe>"
+    },
+    {
+      "work_name":"Wet Phone Anxiety",
+      "work_id":"M-WPA04",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/album/wet-phone-anxiety",
+          "soundcloud":"https://soundcloud.com/professor-daytime/sets/wet-phone-anxiety",
+          "spotify":"https://open.spotify.com/album/5fhIK1TABYdb0ujsyXOY1t?si=fNTij9-UT3SLL_OlOCMZEA",
+          "youtube":"https://youtu.be/FzVbHBr-ds8",
+          "art":""
+        }
+      ],
+      "work_description":"Professor Daytime's 2017 album full of Vaportrap,
+        Vaporwave, Synthwave and a Tech-House remix.  I spent most of late
+        2016 and 2017 working on this album.  Each song has a music video /
+        visualizer for each song on Youtube.  <br>Thanks to<br>Big Computer Band
+        for their remix of my song Dance With Me.",
+      "photo_src":"",
+      "embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/fP6PLv68R-U' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+    },
+    {
+      "work_name":"BotHop Soundtrack",
+      "work_id":"S-BH005",
+      "work_links":[
+        {
+          "soundcloud":"https://soundcloud.com/professor-daytime/sets/bot-hop-old-soundtrack",
+          "google-play":"https://play.google.com/store/apps/details?id=com.dreamingliongamestudios.bothop",
+          "itunes":"https://itunes.apple.com/us/app/bot-hop/id1274891858?ls=1&mt=8"
+        }
+      ],
+      "work_description":"I made the sounds and music for the first release of
+      my colleague from UW Stout, Aman Singh's first indie mobile game Bot Hop.
+      My goal with the sounds were to really show the power and weight of the
+      hopping robots.  I made loud metallic sounds for each movement.  For the
+      music, I wanted to showcase the dystopian cyberpunk setting with an
+      echoing melody that fills an empty city.  For the Christmas release of the
+      game, Dreaming Lion Game Studios decided to go in a different direction
+      with the game and used sounds and music from an artist that lived closer
+      to them.",
+      "photo_src":"",
+      "embed":"<iframe width=‘100%’ height=‘450’ scrolling=‘no’ frameborder=‘no’ allow=‘autoplay’ src=‘https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/552559056&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true’></iframe>"
+    },
+    {
+      "work_name":"Withered Ash: The Soundtrack",
+      "work_id":"S-WA006",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/album/withered-ash-the-soundtrack",
+          "soundcloud":"https://soundcloud.com/professor-daytime/sets/withered-ash",
+          "spotify":"https://open.spotify.com/album/2wSkLlnnYWGsOMtIm0vSim?si=8Lem4h6OSU6XG45raTEPEw",
+          "youtube":"",
+          "art":"",
+          "game-page":""
+        }
+      ],
+      "work_description":"Withered Ash is a 3D first person free running /
+        puzzle game with an emphasis on exploration that I made at UW Stout
+        as my Senior Level Capstone Game for GDD 450.  You play as Doctor Gail
+        Marx, an Exobotanist, as she returns to her space station from the planet
+        it orbits around to find the station's crew has vanished and an ashy
+        substance covers every surface.<br><br>In addition to programming puzzles,
+        creating the particle effects, and writing a majority of the story and
+        dialog, I also wrote the soundtrack, created the sound effects, and
+        programmed a dynamic music engine.<br>About a month before I began work
+        on the soundtrack, I had a desire to write synthwave that sounded like
+        the artist <a href='https://www.youtube.com/watch?v=RMjCxV7u8OA'>Com Truise</a>.
+        I love the sound of the 80s that he embodies.  I love the analog detuned
+        sounds that he uses.  I liked that he and I share the same first name.
+        Seth Haley truly is a god in my eyes.  ...So I went on to find a tutorial
+        for a remake of his song 'Brokendate' and the Youtuber suggested the use
+        of the vst (Virtual Studio Technology--Virtual Instrument) made by Korg
+        called Mono/Poly.  Since that day I have been in love with Mono/Poly.<br><br>
+        With the Withered Ash soundtrack, I wanted to callback to 80s synthwave
+        while also using science fictiony space sounds.  I heavily used Korg's
+        Mono/Poly vst in every song.",
+      "photo_src":"",
+      "embed":"<iframe style=‘border: 0; width: 370px; height: 707px;’ src=‘https://bandcamp.com/EmbeddedPlayer/album=1576114517/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/’ seamless><a href=‘http://professordaytime.bandcamp.com/album/withered-ash-the-soundtrack’>Withered Ash: The Soundtrack by Professor Daytime</a></iframe>"
+    },
+    {
+      "work_name":"Olymbots: The Soundtrack",
+      "work_id":"S-OB007",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/album/olymbots-the-soundtrack",
+          "soundcloud":"https://soundcloud.com/professor-daytime/sets/olymbots",
+          "spotify":"https://open.spotify.com/album/5f94P8BpRc3ucOWJjCt0Gf?si=0fs4iHTUQeGAD0SQlLu3YA",
+          "youtube":"https://www.youtube.com/watch?v=3rg10E-t5Jw&list=PL_NWk_tz_l1pW1d6zO6tH_3oOca-F3cT0",
+          "art":"",
+          "game-page":"https://singhaman.com/olymbots.html"
+        }
+      ],
+      "work_description":"In late 2016, I was hired by Dr. Diane Christie to
+        make music for her GDD 450 class: Highest Point Game Studio's game
+        Olymbots.  Olymbots is a multiplayer party game where up to four players
+        battle one another in six mini games.  The development team was split
+        into six groups of programmers that each gave me ideas and sample pieces
+        for how they would like the music for their minigames to sound.  I used
+        a few different genres while compiling their soundtrack.  Synthwave is a
+        constant throughout, but some songs have drum and bass inspiration,
+        others have future bass sounds.  There is even a racing mini game with
+        Gran Turismo inspired house music.<br>With a name like Olymbots, the
+        team wanted a feel of epic Olympics music with a science fictiony space
+        twist.  So I took inspiration from Power Glove's theme from FarCry 3:
+        Blood Dragon and added a bunch of brass to make The Olymbots Theme.
+        From that theme I also arranged the songs Results Screen and Game Over.",
+      "photo_src":"",
+      "embed":"<iframe style=‘border: 0; width: 370px; height: 806px;’ src=‘https://bandcamp.com/EmbeddedPlayer/album=3591694926/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/’ seamless><a href=‘http://professordaytime.bandcamp.com/album/olymbots-the-soundtrack’>Olymbots: The Soundtrack by Professor Daytime</a></iframe>"
+    },
+    {
+      "work_name":"化粧 YouR MIND",
+      "work_id":"A-MYM08",
+      "work_links":[
+        {
+          "art":"",
+          "soundcloud":"https://soundcloud.com/professor-daytime/makeup-your-mind"
+        }
+      ],
+      "work_description":"One night while working at a Liquor Store, I heard
+        the perfect specimen of 80s cheese.  A song about a man that loves a
+        woman, but she loves another guy and not him.  The man is telling the
+        woman that she needs to make up her mind and asks 'Are you gonna stay
+        with the one who loves you? Or are you goin' back to the one you love?'
+        I don't relate to the song and thought the lyrics were kind of pathetic,
+        but I love the synths and saxophone and ooh that cheese.
+        <br>I wanted to turn it into a classic Ｖａｐｏｒｗａｖｅ à la Macintosh
+        Plus - Floral Shoppe.  I used my favourite sampling technique where a
+        sample in common time, 4/4, is sliced into like a waltz in 3/4 time.  I
+        also employed a technique where I take a loop, extend it a beat and loop
+        it back to the next beat cutting off a beat from the beginning of the
+        loop to cycle through the whole loop building to the next section.<br>
+        The Cover Art is a photograph of one of the creeks of Trip Falls in
+        Menomonie, Wisconsin that I selectively colored with ａｅｓｔｈｅｔｉｃ.
+        <br>Google 'Vaporwave' if you are confused.",
+      "photo_src":"",
+      "embed":"<iframe width=‘100%’ height=‘450’ scrolling=‘no’ frameborder=‘no’ allow=‘autoplay’ src=‘https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/320428747&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true’></iframe>"
+    },
+    {
+      "work_name":"Alchemy Royale",
+      "work_id":"G-AR009",
+      "work_links":[
+        {
+          "buy":"https://www.thegamecrafter.com/games/alchemy-royale"
+        }
+      ],
+      "work_description":"The King's Royal Alchemist has died, and there will
+        be a competition to find a new Royal Alchemist for the realm.  Do you
+        have what it takes?  	By collecting ingredients and brewing potions,
+        you can impress the king by brewing more potions than your competitors,
+        or become the first to hoard enough gold to bribe him for the job.  ",
+      "team":[
+        "Seth Gordon",
+        "Amandeep Singh",
+        "Jake Houghton",
+        "Taylor Sellers",
+        "Hannah Rehberger",
+        "Alec Thompson"
+      ],
+      "photo_src":"",
+      "embed":""
+    },
+    {
+      "work_name":"It's Christmas Time",
+      "work_id":"M-CT010",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/track/its-christmas-time",
+          "soundcloud":"https://soundcloud.com/professor-daytime/its-christmas-time",
+          "spotify":"https://open.spotify.com/album/2saAnlHJjap74MNV3mDzuq?si=LU4qnLTdQrmWxrjm3Ybq_A",
+          "youtube":"https://www.youtube.com/watch?v=1AkjEkdjMcA",
+          "art":""
+        }
+      ],
+      "work_description":"After losing my religion, holidays lost a lot of
+        their spark--charm--meaning to me.  It made the holiday seasons depressing.
+        I wanted to feel something.<br>I wanted to write a secular Christmas
+        song about the aspects of the holiday that I loved and missed. I wanted
+        the song to also be a dope ass Synthwave Dance Jam. I believe I have
+        accomplished that with this song.
+        <br><br>
+        Lyrics:<br>
+        It's Christmas time<br>
+        And Everything is white outside<br>
+        Let's fill ourselves with joy tonight<br>
+        And eat some pie<br>
+        <br>
+        That ham was dank<br>
+        We have our families to thank<br>
+        Pour that eggnog here to drank<br>
+        Some stuffing too<br>
+        <br>
+        It's Christmas time<br>
+        The lights are all setup just right<br>
+        The whole house is glowing so bright<br>
+        Green, blue, red, white<br>
+        <br>
+        So we ate the pie<br>
+        And now our pants are feeling tight<br>
+        Let's take them off and close our eyes<br>
+        And sleep awhile",
+      "photo_src":"",
+      "embed":"<iframe style=‘border: 0; width: 100%; height: 120px;’ src=‘https://bandcamp.com/EmbeddedPlayer/track=1963399857/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=false/artwork=small/transparent=true/’ seamless><a href=‘http://professordaytime.bandcamp.com/track/its-christmas-time’>It&#39;s Christmas Time by Professor Daytime</a></iframe>"
+    },
+    {
+      "work_name":"Vote 4 Me",
+      "work_id":"M-VM011",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/album/vote-4-me",
+          "soundcloud":"",
+          "spotify":"https://open.spotify.com/album/6ts3e1TXl0i4NXvG0q8e6B?si=VI5zJVeAR7GMdOork6zRhg",
+          "youtube":"https://www.youtube.com/watch?v=Xp8FPv2CDmc&list=PLgsjqEi9kN4F3LrANT1Wc3o4HIjeR8bOI",
+          "art":""
+        }
+      ],
+      "work_description":"",
+      "photo_src":"",
+      "embed":"<iframe style=‘border: 0; width: 370px; height: 806px;’ src=‘https://bandcamp.com/EmbeddedPlayer/album=1070422061/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/’ seamless><a href=‘http://professordaytime.bandcamp.com/album/vote-4-me’>Vote 4 Me by Professor Daytime</a></iframe>"
+    },
+    {
+      "work_name":"Does Any of This Matter???",
+      "work_id":"M-DM012",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/album/does-any-of-this-matter",
+          "soundcloud":"https://soundcloud.com/professor-daytime/sets/does-any-of-this-matter",
+          "spotify":"https://open.spotify.com/album/67JbKGuVEDmW7WcaUhOcet?si=_6L4us9wRXK4tPcjHlgvLA",
+          "youtube":"https://www.youtube.com/watch?v=BsinbgNWPPY&list=PLa0qU96x7X-Ke8YayRPIOnwmgITGyfbyI",
+          "art":""
+        }
+      ],
+      "work_description":"",
+      "photo_src":"",
+      "embed":"<iframe style=‘border: 0; width: 370px; height: 674px;’ src=‘https://bandcamp.com/EmbeddedPlayer/album=1165150908/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/’ seamless><a href=‘http://professordaytime.bandcamp.com/album/does-any-of-this-matter’>Does Any Of This Matter??? by Professor Daytime</a></iframe>"
+    },
+    {
+      "work_name":"Withered Ash",
+      "work_id":"G-WA013",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/album/withered-ash-the-soundtrack",
+          "soundcloud":"https://soundcloud.com/professor-daytime/sets/withered-ash",
+          "spotify":"https://open.spotify.com/album/2wSkLlnnYWGsOMtIm0vSim?si=8Lem4h6OSU6XG45raTEPEw",
+          "youtube":"",
+          "download":""
+        }
+      ],
+      "work_description":"Withered Ash is a 3D first person free running /
+        puzzle game with an emphasis on exploration that I made at UW Stout
+        as my Senior Level Capstone Game for GDD 450.  You play as Doctor Gail
+        Marx, an Exobotanist, as she returns to her space station from the planet
+        it orbits around to find the station's crew has vanished and an ashy
+        substance covers every surface.",
+      "photo_src":"",
+      "embed":"<iframe width=‘560’ height=‘315’ src=‘https://www.youtube.com/embed/wHeJg5iOTYk’ frameborder=‘0’ allow=‘autoplay; encrypted-media’ allowfullscreen></iframe>"
+    },
+    {
+      "work_name":"Colorado Woods",
+      "work_id":"A-CW014",
+      "work_links":[
+        {
+          "download":""
+        }
+      ],
+      "work_description":"Some glitch art I made of a picture of me in the
+        Woods of Winter Park Colorado.<br>I most likely used Photoshop and GFKR
+        to create this.",
+      "photo_src":"",
+      "embed":""
+    },
+    {
+      "work_name":"Professor Daytime",
+      "work_id":"M-PD015",
+      "work_links":[
+        {
+          "bandcamp":"https://professordaytime.bandcamp.com/album/professor-daytime",
+          "soundcloud":"https://soundcloud.com/professor-daytime/koch-heads",
+          "spotify":"https://open.spotify.com/album/1HQBt9XMQc7bS0VHEhBfb8?si=MtNuzSiKQ1Kh2f5e9Z7QwQ",
+          "youtube":"https://www.youtube.com/watch?v=0oDh-myWIp4&list=PLwcsE0jDzw3qILBP-fwBQ0AvkcwBUFl8y",
+          "art":""
+        }
+      ],
+      "work_description":"Back in 2015, I believed the work on this album
+        would be the direction I would take with Professor Daytime.  That is why
+        I made it a self-titled album.  The album was full of some of my most
+        interesting work, but looking back on it now, I believe I could have made
+        some better musical decisions rather than the experimental ones that I
+        took.  It starts with my attempt at making deep house: Band Trips, that
+        I wrote while in a hotel room and while on a bus during a band trip in
+        college.  Band Trips ended up being more of a tropical house song.  The
+        album featured some African inspired sounds in the songs: Radiance of
+        the Dawn, Loose Safari, and Don’t Kill People.  I voted for president
+        in 2012, but that was just a reelection that I didn’t put too much
+        thought into because I was only just turning 18 at the time and was
+        ignorant.  In early 2015 I tried to get more into politics and found
+        Bernie Sanders.  Feel the Bern and Koch Heads are two politically
+        motivated songs that I am proud of.  I only regret the use of using
+        Michael Jackson vocal chops as percussion throughout the album.  I
+        thought it was funny, edgy, unique, and interesting, but now relistening
+        to a lot of the songs, it just doesn’t sound that great.  I might
+        rerelease some of these songs one day without those samples… I don’t
+        know.   We’ve got a blues song: Phthalo Blues, an experimental, maybe
+        ‘hardstyle’ song: Magic Missile, and a harp, violin, and guitar trio:
+        Cure Moderate Wounds, thrown in there.  Scorching Ray was actually
+        pretty good, as my first attempt at anything resembling Ｖａｐｏｒｗａｖｅ.
+        Lastly, America’s Attention Span was my first attempt at making trap
+        music.<br><br>
+        Overall, I learned a lot making this album.  Some of it was decent,
+        and some of it was shit. I hope you can enjoy some of it, and understand
+        Professor Daytime a little better.",
+      "photo_src":"",
+      "embed":"<iframe style=‘border: 0; width: 370px; height: 806px;’ src=‘https://bandcamp.com/EmbeddedPlayer/album=1124020432/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/’ seamless><a href=‘http://professordaytime.bandcamp.com/album/professor-daytime’>Professor Daytime by Professor Daytime</a></iframe>"
+    },
+    {
+      "work_name":"Stout Quest",
+      "work_id":"G-SQ016",
+      "work_links":[
+        {
+          "soundcloud":"https://soundcloud.com/professor-daytime/sets/stout-quest",
+          "play":""
+        }
+      ],
+      "work_description":"Stout Quest was the second game I made while at
+        University of Wisconsin Stout in 2014.<br>
+        Is filling out the admissions forms to get into a university too
+        difficult?  Andrew Straub from the Stout Admissions office sure thought
+        so.  He hired us to make a game about filling out paperwork. <br>
+        I learned a lot about development with HTML5 Canvas and Javascript
+        while making this 'game.'  <br>
+        I am proud of the original soundtrack I wrote for the game.",
+      "photo_src":"",
+      "embed":"<iframe width=‘100%’ height=‘450’ scrolling=‘no’ frameborder=‘no’ allow=‘autoplay’ src=‘https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/313667260&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true’></iframe><iframe width=‘100%’ height=‘450’ scrolling=‘no’ frameborder=‘no’ allow=‘autoplay’ src=‘https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/313667260&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true’></iframe>"
+    },
+    {
+      "work_name":"종교",
+      "work_id":"A-R0017",
+      "work_links":[
+        {
+          "art":""
+        }
+      ],
+      "work_description":"While I respect people that choose to follow religion,
+        I do not respect the establishment of any religion or any of it's dogma
+        or figures.  I made this art piece out of pictures of Jesus, Satan,
+        Buddha, David, and of course our lord and savior Harrison Ford.  To be
+        honest, I was probably just bored and thought this was funny / edgy.
+        This is just good honest family friendly fun.",
+      "photo_src":"",
+      "embed":""
+    },
+    {
+      "work_name":"Seth",
+      "work_id":"A-S0018",
+      "work_links":[
+        {
+          "art":""
+        }
+      ],
+      "work_description":"",
+      "photo_src":"",
+      "embed":""
+    },
+    {
+      "work_name":"Echoes of Darkness",
+      "work_id":"G-ED019",
+      "work_links":[
+        {
+          "soundcloud":"",
+          "download":"https://drive.google.com/open?id=0B5HJt4lbMi05Q1B1eDBBLWxNYWM"
+        }
+      ],
+      "work_description":"Echoes of Darkness was my first game made during my
+        GDD101 class in 2013 at University of Wisconsin Stout.  <br><br>
+        Echoes of Darkness is a reverse tower defense game where you summon
+        Skeletons, Zombies, Ghosts, Gouls, and Wraiths to ravage the
+        countryside.  Can you survive all six levels and get the high score",
+      "photo_src":"",
+      "embed":""
+    },
+    {
+      "work_name":"Ooh Degrasse Tysonsan",
+      "work_id":"A-DT020",
+      "work_links":[
+        {
+          "art":""
+        }
+      ],
+      "work_description":"I probably had just watched some Neil deGrasse Tyson
+        videos online right before creating this.  That man is amazing, and I
+        regret not including his image in my piece 종교.  I named this piece after
+        something Krieger's holographic Waifu said in an episode of Archer.",
+      "photo_src":"",
+      "embed":""
+    },
+
+  ]
+}

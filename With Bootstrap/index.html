@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Seth Entertainment</title>
+</head>
+<body data-spy="scroll" data-target="#navbar-site" data-offset="80">
+
+<img src="images/Banner.png" class="img-fluid" alt="Responsive image">
+<nav id="navbar-site" class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+  <div class="container">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+      <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+      <li class="nav-item"><a class="nav-link" href="#devlog">Dev Log</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul><!-- navbar ul -->
+  </div><!-- container -->
+</nav><!-- navbar -->
+
+<!--
+- - - - - - - - - - - - -
+   - - - - - - - - - -
+      ABOUT section
+   - - - - - - - - - -
+- - - - - - - - - - - - -
+ -->
+<div class="container">
+  <div id="about">
+    <h1>About</h1>
+    <!-- <h3>Frontend Development, Music Production, Game Design</h3> -->
+    <p>Seth Gordon is a recent graduate from The University of Wisconsin Stout
+        looking for a job in the digital entertainment world.  In July of 2018
+        he will be moving to Portland, Oregon for more opportunities.
+    </p>
+
+  </div><!-- About -->
+
+  <!--
+  - - - - - - - - - - - - -
+     - - - - - - - - - -
+      SERVICES section
+     - - - - - - - - - -
+  - - - - - - - - - - - - -
+   -->
+  <section id="services" >
+    <h1>Services</h1>
+    <div class="row">
+      <section id="iconWebDev" class="col-sm-6 col-md-4">
+        <img src="images/svg/WebDesign.svg" alt="icon">
+        <h2><a href="#">Web Development</a></h3>
+        <p>Something about Web Development</p>
+      </section><!-- column -->
+
+      <section id="iconMusComp" class="col-sm-6 col-md-4">
+        <img src="images/svg/MusicComposition.svg" alt="icon">
+        <h2><a href="#">Music Composition</a></h3>
+        <p>Something about Music Composition</p>
+      </section><!-- column -->
+
+      <section id="iconGameDev" class="col-sm-6 col-md-4">
+        <img src="images/svg/GameDesign.svg" alt="icon">
+        <h2><a href="#">Game Development</a></h3>
+        <p>Something about Game Development</p>
+      </section><!-- column -->
+
+      <section id="iconMixMast" class="col-sm-6 col-md-4">
+        <img src="images/svg/MixMaster.svg" alt="icon">
+        <h2><a href="#">Mixing and Mastering</a></h3>
+        <p>Something about Mixing and Mastering</p>
+      </section><!-- column -->
+
+      <section id="iconSoundDes" class="col-sm-6 col-md-4">
+        <img src="images/svg/SoundDesign.svg" alt="icon">
+        <h2><a href="#">Sound Design</a></h3>
+        <p>Something about Sound Design</p>
+      </section><!-- column -->
+
+      <section id="iconDigArt" class="col-sm-6 col-md-4">
+        <img src="images/svg/DigitalArt.svg" alt="icon">
+        <h2><a href="#">Digital Art</a></h3>
+        <p>Something about Digital Art</p>
+      </section><!-- column -->
+    </div><!-- row -->
+  </section><!-- Services Section -->
+
+<!--
+- - - - - - - - - - - - -
+   - - - - - - - - - -
+      WORK section
+   - - - - - - - - - -
+- - - - - - - - - - - - -
+ -->
+  <section id="work">
+    <h1>Selected Works</h1>
+    <div id="work-controls">
+      <form>
+        <div>
+          <span>Show: </span>
+          <input id="cb-work-games" type="checkbox"  />
+          <label for="cb-work-games">Games</label>
+          <input id="cb-work-music" type="checkbox"  />
+          <label for="cb-work-music">Music</label>
+          <input id="cb-work-sound" type="checkbox"  />
+          <label for="cb-work-sound">Soundtrack</label>
+          <input id="cb-work-art" type="checkbox"  />
+          <label for="cb-work-art">Digital Art</label>
+          <input id="cb-work-phys" type="checkbox"  />
+          <label for="cb-work-phys">Physical Art</label>
+        </div><!-- work checkbox div -->
+      </form>
+    </div><!-- work controls -->
+
+    <div class="row" id="work-list">
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="M-LS001">
+        <img class="work-image img-fluid" src="images/work/pd_LonelySeashore.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="true" data-type="music">Lonely Seashore</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="A-VC002">
+        <img class="work-image img-fluid" src="images/work/da_rVaporwaveCover.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="art">/r/Vaporwave Cover Art</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="M-CT003">
+        <img class="work-image img-fluid" src="images/work/pd_CivilTwilight.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="true" data-type="music">Civil Twilight</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="M-WPA04">
+        <img class="work-image img-fluid" src="images/work/pd_WetPhoneAnxiety.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="true" data-type="music">Wet Phone Anxiety</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="S-BH005">
+        <img class="work-image img-fluid" src="images/work/st_BotHop.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="sound">BotHop Soundtrack</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="S-WA006">
+        <img class="work-image img-fluid" src="images/work/st_WitheredAsh.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="true" data-type="sound">Withered Ash: The Soundtrack</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="S-OB007">
+        <img class="work-image img-fluid" src="images/work/st_Olymbots.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="sound">Olymbots: The Soundtrack</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="A-MYM08">
+        <img class="work-image img-fluid" src="images/work/da_MakeUpYourMind.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="art">化粧 YouR MIND</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="G-AR009">
+        <img class="work-image img-fluid" src="images/work/gm_AlchemyRoyale.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="true" data-type="game">Alchemy Royale</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="M-CT010">
+        <img class="work-image img-fluid" src="images/work/pd_ItsChristmasTime.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="music">It's Christmas Time</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="M-VM011">
+        <img class="work-image img-fluid" src="images/work/pd_Vote4Me.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="true" data-type="music">Vote 4 Me</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="M-DM012">
+        <img class="work-image img-fluid" src="images/work/pd_DoesAnyOfThisMatter.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="true" data-type="music">Does Any of This Matter???</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="G-WA013">
+        <img class="work-image img-fluid" src="images/work/gm_WitheredAsh.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="true" data-type="game">Withered Ash</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="A-CW014">
+        <img class="work-image img-fluid" src="images/work/da_ColoradoWoods.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="art">Colorado Woods</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="M-PD015">
+        <img class="work-image img-fluid" src="images/work/pd_ProfessorDaytime.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="music">Professor Daytime</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="G-SQ016">
+        <img class="work-image img-fluid" src="images/work/gm_StoutQuest.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="game">Stout Quest</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="A-R0017">
+        <img class="work-image img-fluid" src="images/work/da_Religion.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="art">종교</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="A-S0018">
+        <img class="work-image img-fluid" src="images/work/da_SethPopArt.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="art">Seth</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="G-ED019">
+        <img class="work-image img-fluid" src="images/work/gm_EchoesOfDarkness.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="game">Echoes of Darkness</h2>
+      </div>
+      <div class="work-item col-sm-6 col-md-4 col-lg-3" data-work_id="A-DT020">
+        <img class="work-image img-fluid" src="images/work/da_DegrasseTysonsan.png" alt="Work Item Photo">
+        <h2 class="work-name" data-featured="false" data-type="art">Ooh Degrasse Tysonsan</h2>
+      </div>
+
+    </div><!-- Work List -->
+
+    <!-- <div class="btn-center">
+      <button  class="btn btn-outline-secondary">Load More</button>
+    </div> -->
+
+  </section><!-- Work Section -->
+
+
+  <!--
+  - - - - - - - - - - - - -
+     - - - - - - - - - -
+       DEVLOG section
+     - - - - - - - - - -
+  - - - - - - - - - - - - -
+   -->
+  <section id="devlog">
+    <h1>Dev Logs</h1>
+    <div class="video-responsive">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ShJlJiqAr-Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!--
+  - - - - - - - - - - - - -
+     - - - - - - - - - -
+      CONTACT section
+     - - - - - - - - - -
+  - - - - - - - - - - - - -
+   -->
+  <section id="contact">
+    <h1>Contact</h1>
+    <p>For <span class="contact-type">Computer Science</span> or other business inquiries email me at: <a class="email" href="mailto:sethgentertainment@gmail.com">SethGEntertainment@gmail.com</a></p>
+    <p>For <span class="contact-type">Music</span> or Live Performance inquiries email me at: <a class="email" href="mailto:professordaytime@gmail.com">ProfessorDaytime@gmail.com</a></p>
+    <p>For <span class="contact-type">WZRD HAU5 Collective</span> Music Label inquiries email us at: <a class="email" href="mailto:wzrdhau5collective@gmail.com">WZRDHau5Collective@gmail.com</a></p>
+  </section>
+</div><!-- container -->
+
+
+
+
+
+<!--
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+   - - - - - - - - - - - - - - - - - - - -
+                  JAVASCRIPT
+   - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+ -->
+<!-- <script src="js/jquery.slim.min.js"></script>  This isn't enough for the scroll spy code-->
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

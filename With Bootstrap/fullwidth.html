@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ａｅｓｔｈｅｔｉｃ</title>
+  </head>
+  <body>
+
+    <div>
+      <form action="/action_page.php">
+        <label for="input">Input Text</label>
+        <input type="text" id="toVape" name="input" placeholder="aesthetic">
+        <input type="submit" value="ｓｕｂｍｉｔ" onclick="onSubmit()">
+        <br>
+        <input type="text" id="vaped" name="output" placeholder="ａｅｓｔｈｅｔｉｃ">
+      </form>
+    </div>
+
+  </body>
+
+  <script>
+    const aesthetic = str => str
+      .split('')
+      .map(char => {
+        let notWhitespace = /\S/i.test(char)
+        let code = char.charCodeAt(0)
+
+        return notWhitespace
+          ? String.fromCharCode(code + 65248)
+          : String.fromCharCode(code)
+      })
+      .join('')
+
+    function onSubmit() {
+      var toVape = document.getElementById("toVape").value;
+
+      document.getElementById("vaped").value = aesthetic(toVape);
+    }
+
+  </script>
+</html>
